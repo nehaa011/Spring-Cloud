@@ -1,0 +1,53 @@
+What Are Microservices?
+
+Microservices is an architectural style where an application is structured as a collection of small, loosely coupled, independently deployable services that communicate with each other over lightweight protocols (such as HTTP/REST or messaging queues) and operates independently with its own database and logic.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Features:
+- Independent & Loosely Coupled Services 
+- Decentralized Data Management
+- API-Based Communication
+- Scalability & Load Balancing
+- Fault Tolerance
+- Deployment Flexibility
+- Technology Flexibility
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Microservices Architecture:
+
+
++---------------------------------------------------------------+
+|   Client Requests --->  API Gateway  ---> Service Discovery   |                                     |
++---------------------------------------------------------------+
+                            │
+                            ▼
+      |-----------------------------------|-----------------------------------|
+      |                                   |                                   |    
+      |                                   |                                   |           
+      ▼                                  ▼                                   ▼    
++----------------+    (Rest APIs)   +----------------+   (Rest APIs)      +----------------+
+|   Service 1    | <------------->  |  Service 2     | <--------------->  |  📦 Service 3  | 
++-------|--------+                  +------|---------+                    +---------|-------+
+        |                                  |                                        |
+        |                                  |                                        |
++-------|--------+                  +------|---------+                    +---------|-------+
+|  Database 1    |                  |  Database 2    |                    |  Database 3     |
++----------------+                  +----------------+                    +-----------------+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Challenges:
+- Complex Deployment
+- Network latency
+- Security
+- Data Consistency
+
