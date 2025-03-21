@@ -1,0 +1,34 @@
+Microservices vs Service Oriented Architecture [SOA]
+
+
++----------------------------+------------------------------------------+----------------------------------+
+|          Feature           |    Service-Oriented Architecture (SOA)   |    Microservices Architecture    |
++----------------------------+------------------------------------------+----------------------------------+
+| Purpose                    | Built for reusability                    | Built for a specific app         |
++----------------------------+------------------------------------------+----------------------------------+
+| Service Size               | Large services                           | Small, independent services      |
++----------------------------+------------------------------------------+----------------------------------+
+| Communication              | Uses SOAP (strict protocol)              | Uses REST APIs (flexible)        |
++----------------------------+------------------------------------------+----------------------------------+
+| Service Coupling           | Tightly coupled services                 | Loosely coupled services         |
++----------------------------+------------------------------------------+----------------------------------+
+| Scalability                | Hard to scale (big services)             | Easy to scale (small services)   |
++----------------------------+------------------------------------------+----------------------------------+
+| Architecture Strictness    | Follows strict contracts                 | More relaxed contracts           |
++----------------------------+------------------------------------------+----------------------------------+
+| Use Case                   | Used in enterprise systems               | Used in modern cloud apps        |
++----------------------------+------------------------------------------+----------------------------------+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SOA (Service-Oriented Architecture) is an old method of designing applications where different services are created to be reused in multiple applications.
+
+
+How SOA Works?
+- SOA has large services (each service does multiple things).
+- These services communicate using SOAP (Simple Object Access Protocol).
+- Enterprise Service Bus (ESB) is used to connect different services.
+
+
